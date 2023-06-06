@@ -256,7 +256,7 @@ for (var i = 0; i < TVShows.length; i++) {
   tvshow.appendChild(poster);
 
   var pic = document.createElement("img");
-  pic.src = "./images/" + TVShows[i]["ImgSrc"];
+  pic.src = "./Images/" + TVShows[i]["ImgSrc"];
   poster.appendChild(pic);
 
   var cpx = document.createElement("h2");
